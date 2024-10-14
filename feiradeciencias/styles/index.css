@@ -1,0 +1,119 @@
+@import url(/styles/header.css);
+@import url(/styles/reset.css);
+@import url(/styles/footer.css);
+@import url(/styles/outraspaginas.css);
+@import url(/styles/projetos.css);
+@import url(/styles/trabalhos.css);
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+:root{
+    --verde1: #387F39;
+    --verde2: #A2CA71;
+    --verde3: #BEDC74;
+    --branco: #F2EED7;
+    --preto: #1E201E;
+    --tecnologia: #90A4AE;
+    --quimica: #7E57C2;
+    --matematica: #E57373;
+    --fonte__titulo: "Mukta", sans-serif;
+}
+
+.body{
+    background-color: var(--branco);
+}
+
+.apresentacao__feira{
+    height: 50vh;
+    padding: 2em; 
+}
+
+.apresentacao__texto{
+    font-family: var(--fonte__titulo);
+    color: var(--preto);
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 2em;
+}
+
+.data__hora{
+    height: 25vh;
+    padding: 2em;
+}
+
+.organizadores{
+    height: 40vh;
+    padding: 2em;
+}
+
+.titulo{
+    text-align: center;
+    font-family: var(--fonte__titulo);
+    color: var(--preto);
+    font-weight: 700;
+}
+
+.section-pag{
+    height: 100vh;
+}
+
+.main__texto{
+    text-align: center;
+    margin-top: 1em;
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    
+    .apresentacao__feira{
+        height: 40vh;
+    }
+
+    .data__hora{
+        height: 20vh;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    
+    .apresentacao__feira{
+        height: 55vh;
+        padding: 5em;
+    }
+
+    .data__hora{
+        height: 30vh;
+        padding: 5em;
+    }
+
+    .organizadores{
+        height: 50vh;
+        padding: 5em;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1200px){
+
+    .apresentacao__feira{
+        padding: 5em;
+    }
+
+    .data__hora{
+        padding: 5em;
+    }
+
+    .organizadores{
+        padding: 5em;
+        height: 50vh;
+    }
+}
+
+@media (min-width: 1201px) {
+    .apresentacao__feira, 
+    .data__hora, 
+    .organizadores{
+        padding: 5em 10em;
+    }
+}

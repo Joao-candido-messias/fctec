@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.trabalho {
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.videottk {
+    flex: 1;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resumo {
+    flex: 1;
+    min-height: 20vh;
+    padding: 2em;
+}
+
+.integrantes {
+    flex: 1;
+    min-height: 20vh;
+}
+
+.bi-usb-symbol {
+    color: var(--tecnologia);
+}
+
+.bi-radioactive {
+    color: var(--quimica);
+}
+
+.bi-calculator {
+    color: var(--matematica);
+}
+
+.lista__areas {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+}
+
+.lista__fotos {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+}
+
+footer {
+    background-color: var(--verde1);
+    color: var(--branco);
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .videottk,
+    .resumo,
+    .integrantes {
+        min-height: 30vh;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .videottk,
+    .resumo,
+    .integrantes {
+        min-height: 30vh;
+    }
+}
+
+@media (min-width: 1201px) {
+    .videottk,
+    .resumo,
+    .integrantes {
+        min-height: 50vh;
+    }
+
+    .lista__areas{
+        justify-content: center;
+    }
+
+    .lista__areas__item{
+        margin: 1em;
+    }
+
+    .lista__fotos{
+        margin: 5em 0 0 0;
+    }
+}
