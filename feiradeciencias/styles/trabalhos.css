@@ -9,7 +9,7 @@ html, body {
 }
 
 .trabalho {
-    background-color: var(--branco);
+    background-color: var(--azul-claro);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -66,41 +66,6 @@ footer {
     margin-top: auto;
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
-}
+@media (min-width:320px) and (max-width:400px){
 
-@media (min-width: 769px) and (max-width: 1024px) {
-    .videottk,
-    .resumo,
-    .integrantes {
-        min-height: 30vh;
-    }
-}
-
-@media (min-width: 1025px) and (max-width: 1200px) {
-    .videottk,
-    .resumo,
-    .integrantes {
-        min-height: 30vh;
-    }
-}
-
-@media (min-width: 1201px) {
-    .videottk,
-    .resumo,
-    .integrantes {
-        min-height: 50vh;
-    }
-
-    .lista__areas{
-        justify-content: center;
-    }
-
-    .lista__areas__item{
-        margin: 1em;
-    }
-
-    .lista__fotos{
-        margin: 5em 0 0 0;
-    }
 }

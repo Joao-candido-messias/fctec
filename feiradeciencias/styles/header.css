@@ -1,13 +1,22 @@
 .cabecalho{
-    background-color: var(--verde1);
+    background-color: var(--azul-escuro);
     height: 10vh;
-    padding: 2em 0;
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
 }
 
-.cabecalho__lista{
+.foto__cabecalho{
+    width: 10em;
+    height: 10em;
+    margin-top: 1em;
+}
+
+.cabecalho_lista{
     display: flex;
-    justify-content:space-between;
-    padding: 0 2em 0 1em;
+    margin-right: auto;
+    flex: 1;
 }
 
 .cabecalho__texto{
@@ -17,10 +26,36 @@
     margin-left: 1em;
 }
 
+.cabecalho__opcao {
+    margin-right: 20px;
+}
+
+.dropdown{
+    margin-right: auto;  
+}
+
+.logo__container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.logo__container-pag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; 
+    margin-left: 4em;
+}
+
+.espaco-vazio {
+    flex: 1;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color:var(--verde1);
+    background-color:var(--azul-escuro);
     width: 34vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -37,7 +72,7 @@
 }
 
 .dropdown-content a:hover {
-    background-color:var(--verde2);
+    background-color:var(--azul-escuro);
 }
 
 .dropdown:hover .dropdown-content {
@@ -45,7 +80,7 @@
 }
 
 .dropdown:hover .dropbtn {
-    background-color:var(--verde1);
+    background-color:var(--azul-escuro);
 }
 
 .bi{
@@ -54,17 +89,48 @@
     color: var(--branco);
 }
 
-@media (min-width: 481px) and (max-width: 768px){
-       
+@media (min-width:450px) and (max-width:727px){
+    .foto__cabecalho{
+        width: 12em ;
+        height: 12em;
+    }
+    .dropdown-content{
+        width: 40vw;
+    }
+
+    .cabecalho{
+        padding: 1em;
+    }
 }
 
-@media (min-width:769px) and (max-width:1024px){
-     .cabecalho{
+@media (min-width:728px) and (max-width:1024px){
+    .cabecalho{
         height: 10vh;
-     }
+        padding: 1em;
+    }
+
 }
-@media (min-width: 1201px) {
+
+@media (min-width:1025px){
+
+    .foto__cabecalho{
+        width: 20em ;
+        height: 20em;
+    }
+
     .cabecalho{
         height: 15vh;
+        padding: 2em;
+    }
+
+    .bi{
+        font-size: 40px;
+    }
+    
+    .dropdown-content{
+        font-size: 20px;
+    }
+    .cabecalho__opcao{
+        font-size:20px;
     }
 }

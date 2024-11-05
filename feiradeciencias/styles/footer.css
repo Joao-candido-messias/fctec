@@ -1,5 +1,5 @@
 .rodape{
-    background-color: var(--verde1);
+    background-color: var(--azul-escuro);
     height: 8vh;
     text-align: center;
     padding: 1.5em 0;
@@ -9,4 +9,10 @@
     font-weight: 400;
     font-family: var(--fonte__titulo);
     color: var(--branco);
+}
+
+@media (min-width:320px) and (max-width:400px){
+    .rodape__texto{
+        font-size: 15px;
+    }
 }
