@@ -4,7 +4,7 @@
     
 }
 .projetos{
-    height: 100vh;
+    height: 125vh;
 }
 
 .projetos__lista {
@@ -36,6 +36,10 @@
     color: var(--branco);
 }
 
+.projetos__texto:hover{
+    color: var(--ciano);
+}
+
 @media (min-width:320px) and (max-width:400px){
     .projetos__texto{
     font-size: 15px;
@@ -52,13 +56,23 @@
 }
 
 @media (min-width:728px) and (max-width:1024px){
+    .projetos{
+        height: 150vh;
+    }
     .projetos__lista__item:nth-child(n+3):nth-child(-n+13){
         margin-top: 4em;
     }
 }
 
 @media(min-width:1025px){
+    .projetos{
+        height: 180vh;
+    }
     .projetos__lista__item:nth-child(n+3):nth-child(-n+13){
         margin-top: 5em;
+    }
+
+    .projetos__texto{
+        font-size: 25px;
     }
 }

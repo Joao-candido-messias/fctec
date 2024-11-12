@@ -11,8 +11,10 @@
     color: var(--branco);
 }
 
-@media (min-width:320px) and (max-width:400px){
-    .rodape__texto{
-        font-size: 15px;
-    }
+@media (min-width:450px) and (max-width:727px){
+
+}
+
+@media (min-width:728px) and (max-width:1024px){
+
 }

@@ -8,11 +8,35 @@ html, body {
     height: 100%;
 }
 
+.botao{
+    padding: 0.5em;
+    border-radius: 5px;
+    font-size: 0.7em;
+    margin-left: 0.5em;
+    box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.4);;
+}
+
+.tecnologia{
+    background-color:var(--tecnologia);
+}
+
+.fisica{
+    background-color: var(--fisica);
+}
+
+.matematica{
+    background-color: var(--matematica);
+}
+
+.biologia{
+    background-color: var(--biologia);
+}
+
+
 .trabalho {
     background-color: var(--azul-claro);
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 .videottk {
@@ -25,37 +49,45 @@ html, body {
 
 .resumo {
     flex: 1;
-    min-height: 20vh;
+    height: 150vh;
     padding: 2em;
 }
 
+.paragrafo{
+    text-align: justify;
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    margin-top: 2em;
+    line-height: 1.5em;
+}
+
+.saiba__mais{
+    color: var(--ciano);
+}
 .integrantes {
     flex: 1;
-    min-height: 20vh;
-}
-
-.bi-usb-symbol {
-    color: var(--tecnologia);
-}
-
-.bi-radioactive {
-    color: var(--quimica);
-}
-
-.bi-calculator {
-    color: var(--matematica);
+    height: 100vh;
 }
 
 .lista__areas {
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     padding: 1em 0;
 }
 
-.lista__fotos {
-    display: flex;
-    justify-content: space-around;
-    padding: 1em 0;
+.foto__grupo{
+    height: 15em;
+    width: 15em;
+    margin-top: 2em;
+    border-radius: 5%;
+    box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.5);
+}
+
+.legenda__foto{
+    font-family: var(--fonte-principal);
+    font-size: 0.6em;
+    color: var(--branco);
+    margin: 1em 0;
 }
 
 footer {
@@ -66,6 +98,3 @@ footer {
     margin-top: auto;
 }
 
-@media (min-width:320px) and (max-width:400px){
-
-}
