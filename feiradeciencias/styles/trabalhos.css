@@ -32,6 +32,10 @@ html, body {
     background-color: var(--biologia);
 }
 
+.quimica{
+    background-color: var(--quimica);
+}
+
 
 .trabalho {
     background-color: var(--azul-claro);
@@ -85,7 +89,7 @@ html, body {
 
 .legenda__foto{
     font-family: var(--fonte-principal);
-    font-size: 0.6em;
+    font-size: 0.8em;
     color: var(--branco);
     margin: 1em 0;
 }
@@ -96,5 +100,61 @@ footer {
     text-align: center;
     padding: 10px;
     margin-top: auto;
+}
+
+@media (min-width:450px) and (max-width:727px){
+    .botao{
+        padding: 0.5em;
+        font-size: 1em;
+    }   
+}
+
+@media (min-width:728px) and (max-width:1024px){
+    .resumo{
+        padding: 5em;
+    }
+
+    .paragrafo{
+        font-size: 1.3em;
+    }
+
+    .botao{
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .foto__grupo{
+        height: 20em;
+        width: 20em;
+    }
+
+    .legenda__foto{
+        font-size: 1em;
+    }
+
+}
+
+@media (min-width:1025px){
+    .resumo{
+        padding: 6em 15em ;
+    }
+
+    .paragrafo{
+        font-size: 1.7em;
+    }
+
+    .botao{
+        padding: 1em;
+        font-size: 1em;
+    }
+
+    .foto__grupo{
+        height: 25em;
+        width: 35em;
+    }
+
+    .legenda__foto{
+        font-size: 1em;
+    }
 }
 
