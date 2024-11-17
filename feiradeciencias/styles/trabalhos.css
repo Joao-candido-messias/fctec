@@ -87,6 +87,14 @@ html, body {
     box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.5);
 }
 
+.foto__grupo{
+    height: 15em;
+    width: 15em;
+    margin-top: 2em;
+    border-radius: 5%;
+    box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.5);
+}
+
 .legenda__foto{
     font-family: var(--fonte-principal);
     font-size: 0.8em;

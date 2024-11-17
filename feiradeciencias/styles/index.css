@@ -16,10 +16,10 @@
     --ciano:#00e1ff;
     --branco: #F2EED7;
     --preto: #1E201E;
-    --tecnologia: #00BFFF;
-    --quimica:#A020F0;
+    --tecnologia: #00b2b6;
+    --quimica:#9D00FF;
     --matematica: #FF0000;
-    --fisica:#FFFF00;
+    --fisica: #FF1E00;
     --biologia:#00FF00;
     --fonte__titulo:"Open Sans", sans-serif;
 }
@@ -29,7 +29,7 @@
 }
 
 .apresentacao__feira{
-    height: 100vh;
+    height: 95vh;
     padding: 2em; 
 }
 
@@ -43,12 +43,12 @@
 }
 
 .data__hora{
-    height: 50vh;
+    height: 45vh;
     padding: 2em;
 }
 
 .organizadores{
-    height: 100vh;
+    height: 95vh;
     padding: 2em;
 }
 
@@ -70,36 +70,36 @@
 
 @media (min-width:450px) and (max-width:727px){
     .apresentacao__feira{
-        height: 70vh;
+        height: 65vh;
         padding:1em 2.5em;
     }
 
     .data__hora{
-        height: 50vh;
+        height: 45vh;
         margin-top: 1.5em;
         padding:1em 2.5em;
     }
 
     .organizadores{
-        height: 70vh;
+        height: 65vh;
         padding:1em 2.5em;
     }
 }
 
 @media (min-width:728px) and (max-width:1024px){
     .apresentacao__feira{
-        height: 80vh;
+        height: 75vh;
         padding:5em 6em;
     }
 
     .data__hora{
         padding:2em 6em;
-        height: 50vh;
+        height: 45vh;
     }
 
     .organizadores{
         padding:2em 6em;
-        height: 60vh;
+        height: 55vh;
     }
 
     .titulo{
@@ -113,19 +113,19 @@
 
 @media (min-width:1025px){
     .apresentacao__feira{
-        height: 80vh;
+        height: 70vh;
         padding:2em 15vw;
         margin-top: 1em;
     }
 
     .data__hora{
-        height: 50vh;
+        height: 40vh;
         padding:2em 15vw;
         margin-top: 1em;
     }
 
     .organizadores{
-        height: 80vh;
+        height: 70vh;
         padding:2em 15vw;
         margin-top: 1em;
     }
