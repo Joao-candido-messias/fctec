@@ -12,9 +12,13 @@
 }
 
 @media (min-width:450px) and (max-width:727px){
-
+    .rodape{
+        padding:1em 0;
+    }
 }
 
-@media (min-width:728px) and (max-width:1024px){
-
+@media (min-width:1025px){
+    .rodape{
+        padding:1em 0;
+    }
 }

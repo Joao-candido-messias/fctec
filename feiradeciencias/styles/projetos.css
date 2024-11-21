@@ -55,6 +55,12 @@
 
 }
 
+@media (min-width:401px) and (max-width:727px){
+    .projetos{
+        height: 160vh;
+    }
+}
+
 @media (min-width:728px) and (max-width:1024px){
     .projetos{
         height: 150vh;

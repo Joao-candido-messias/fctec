@@ -144,7 +144,8 @@ footer {
 
 @media (min-width:1025px){
     .resumo{
-        padding: 6em 10em ;
+        padding: 6em 10em;
+        height: 200vh;
     }
 
     .paragrafo{
